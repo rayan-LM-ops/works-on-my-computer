@@ -18,7 +18,7 @@ You will use it to practise:
 - writing deployment documentation;
 - making a controlled change;
 - troubleshooting a failed release;
-- deciding whether to fix forward or roll back;
+- deciding whether to fix forward or roll back;  
 - verifying recovery.
 
 ## What this project uses
