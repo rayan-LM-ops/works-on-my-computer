@@ -4,13 +4,13 @@
 
 ## Release identity
 
-- [ ] 
-- [ ] 
+- [ ] Add the support contact but the mail don't work 
+- [ ] change the version (from v1.0.0 to v1.1.0)
 
 ## Target environment
 
-- [ ] 
-- [ ] 
+- [ ] the pipeline pass without an error
+- [ ] the deployment works
 
 ## Access and prerequisites
 
@@ -47,7 +47,7 @@
 
 ## Final decision
 
-- Ready to deploy? **Yes / No**
+- Ready to deploy? **Yes** / No
 - If no, what must be resolved first?
 
 
