@@ -1,64 +1,104 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Works On My Machine - Developer Excuse Generator</title>
-  <link rel="stylesheet" href="./style.css" />
-  <script src="./config.js" defer></script>
-  <script src="./messages.js" defer></script>
-  <script src="./app.js" defer></script>
-</head>
-<body>
-  <main class="appShell">
-    <section class="hero" aria-labelledby="appTitle">
-      <p class="eyebrow">Works On My Machine(TM)</p>
-      <h1 id="appTitle">The Developer Excuse Generator</h1>
-      <p class="intro">When production has opinions, press the button and communicate with confidence.</p>
-    </section>
+<!doctype html> <html lang="en"> <head> <meta charset="utf-8" /> <meta name="viewport" content="width=device-width, initial-scale=1" /> <title>Works On My Machine - Developer Excuse Generator</title> <link rel="stylesheet" href="./style.css" /> <script src="./config.js" defer></script> <script src="./messages.js" defer></script> <script src="./app.js" defer></script> </head> <body> <main class="appShell">
+<section class="hero" aria-labelledby="appTitle">
+  <p class="eyebrow">Works On My Machine(TM)</p>
 
-    <section class="statusPanel" aria-label="Fake system status">
-      <div>
-        <span>Environment</span>
-        <strong id="environment">Loading</strong>
-      </div>
-      <div>
-        <span>Version</span>
-        <strong id="version">Loading</strong>
-      </div>
-      <div>
-        <span>Developer confidence</span>
-        <strong id="confidence">Loading</strong>
-      </div>
-      <div>
-        <span>Current status</span>
-        <strong id="statusText">Loading</strong>
-      </div>
-    </section>
+  <h1 id="appTitle">
+    The Developer Excuse Generator
+  </h1>
 
-    <section class="generator" aria-live="polite">
-      <p class="label">Generated explanation</p>
-      <p class="message" id="message">Click the button before someone asks for a root cause.</p>
-      <div class="actions">
-        <button id="excuseButton" type="button">Something broke. Explain yourself.</button>
-        <button id="solutionButton" class="secondary" type="button">Generate Technical Solution</button>
-        <button id="panicButton" class="secondary warning" type="button">Panic</button>
-      </div>
-    </section>
-
-<section class="note">
-  <h2>Static website safety note</h2>
-  <p>Anything delivered to a browser is visible to the user. Never place passwords, API keys or private secrets in a static website.</p>
+  <p class="intro">
+    When production has opinions, press the button and communicate with confidence.
+  </p>
 </section>
 
-<section class="note">
-  <h2>About this generator</h2>
-  <p>This generator was presented to you by Laura Moreau from English Proficiency.</p>
-<p>
-  If you encounter any issues with the website, please contact our support team at
-  <strong>rayanelias.elalaoui@cciformation.fr</strong>.
-</p>
+
+<section class="statusPanel" aria-label="Fake system status">
+
+  <div>
+    <span>Environment</span>
+    <strong id="environment">Loading</strong>
+  </div>
+
+  <div>
+    <span>Version</span>
+    <strong id="version">Loading</strong>
+  </div>
+
+  <div>
+    <span>Developer confidence</span>
+    <strong id="confidence">Loading</strong>
+  </div>
+
+  <div>
+    <span>Current status</span>
+    <strong id="statusText">Loading</strong>
+  </div>
+
 </section>
-  </main>
-</body>
-</html>
+
+
+<section class="generator" aria-live="polite">
+
+  <p class="label">
+    Generated explanation
+  </p>
+
+  <p class="message" id="message">
+    Click the button before someone asks for a root cause.
+  </p>
+
+  <div class="actions">
+
+    <button id="excuseButton" type="button">
+      Something broke. Explain yourself.
+    </button>
+
+    <button id="solutionButton" class="secondary" type="button">
+      Generate Technical Solution
+    </button>
+
+    <button id="panicButton" class="secondary warning" type="button">
+      Panic
+    </button>
+
+    <button id="copyButton" class="secondary" type="button">
+      Copy Message
+    </button>
+
+  </div>
+
+</section>
+
+
+<section class="note">
+
+  <h2>
+    Static website safety note
+  </h2>
+
+  <p>
+    Anything delivered to a browser is visible to the user.
+    Never place passwords, API keys or private secrets in a static website.
+  </p>
+
+</section>
+
+
+<section class="note">
+
+  <h2>
+    About this generator
+  </h2>
+
+  <p>
+    This generator was presented to you by Laura Moreau from English Proficiency.
+  </p>
+
+  <p>
+    If you encounter any issues with the website, please contact our support team at
+    <strong>rayanelias.elalaoui@cciformation.fr</strong>.
+  </p>
+
+</section>
+
+</main> </body> </html>

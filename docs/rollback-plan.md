@@ -4,16 +4,16 @@
 
 ## 1. Known-good state
 
-- Known-good version:
-- Commit / reference:
-- How was this state verified?
+- Known-good version: v1.1.0
+- Commit / reference: Update minor
+- How was this state verified? Good
 
 
 ## 2. Rollback triggers
 
 What conditions would make you stop the new release and roll back?
 
-- 
+-
 - 
 - 
 
