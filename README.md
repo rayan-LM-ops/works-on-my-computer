@@ -2,7 +2,7 @@
 
 **The Developer Excuse Generator** is a deliberately small static website used for the CDA-M10 deployment workshop.
 
-Release: **v1.0.0 — Stable-ish**
+Release: **v1.1.0 — Stable-ish**
 
 > Initial release. Management has been informed that everything is fine.
 
@@ -69,5 +69,7 @@ Use the ENKI GitLab setup guide during class. As you work, complete the document
 - `v1.0.0 — Stable-ish`: starting point.
 - `v1.1.0 — Confidence Update`: make one small, controlled application change and redeploy it.
 - `v1.2.0 — Definitely Tested`: teacher-triggered controlled failure used for troubleshooting and recovery practice.
+
+For `v1.1.0`, i added the mail to contact the support in case of issues of the site. and i change the title in the config.js (from v1.0.0 to v1.1.0). The update v1.1.0 did by Rayan Elias EL ALAOUI.
 
 For `v1.2.0`, investigate the evidence before changing anything. The fault is deliberately not documented in this starter.
